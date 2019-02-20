@@ -2,7 +2,7 @@
 - name: Mediawiki | Install packages
   package:
     name: "{{ item }}"
-    state: latest
+    state: present
   with_items:
     - imagemagick
     - php7.0-intl
